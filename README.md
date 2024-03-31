@@ -1,8 +1,7 @@
-# GPA Calculator💻🚀
+# GPA Calculator💻🚀🧮📊📅
 
 A GPA (Grade Point Average) Calculator web application with a clean and intuitive user interface.
 
-![GPA Calculator Screenshot](demo/screenshot.png)
 
 ## Features
 -Supports both SGPA and CGPA calculations.🧮
