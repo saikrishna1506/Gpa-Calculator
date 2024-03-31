@@ -1,5 +1,6 @@
 // src/App.js
 import React, { useState } from 'react';
+import { Analytics } from "@vercel/analytics/react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import CourseForm from './components/CourseForm';
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <div className="App">
+    <Analytics/>
       <Navbar bg="dark" variant="dark" expand="lg" className="sticky-top">
         <Container>
           <Navbar.Brand href="#home">GPA Calculator</Navbar.Brand>
