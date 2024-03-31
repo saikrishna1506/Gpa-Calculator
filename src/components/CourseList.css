@@ -1,0 +1,59 @@
+/* src/components/CourseList.css */
+
+.course-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ebeeef;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* position: fixed; */
+  }
+  
+  .course-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e1e4e8;
+  }
+  
+  .grade {
+    font-weight: bold;
+    color: #0366d6;
+  }
+  
+  .credits {
+    color: #586069;
+  }
+  
+  .btn-primary {
+    background-color: #0366d6;
+    border-color: #0366d6;
+  }
+  
+  .result-label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .result-value {
+    font-weight: bold;
+    color: #22863a;
+  }
+  /* src/components/CourseList.css */
+
+.notification-container {
+  position: fixed;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: 90%;
+  max-width: 600px;
+}

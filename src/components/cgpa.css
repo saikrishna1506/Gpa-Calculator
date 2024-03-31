@@ -1,0 +1,18 @@
+.semester-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .semester-item h4 {
+    margin-bottom: 10px;
+  }
+  
+  .semester-item ul {
+    padding-left: 20px;
+  }
+  
+  .semester-item li {
+    margin-bottom: 5px;
+  }
+  
